@@ -53,6 +53,7 @@ a{
 }
 a:hover{
     transform: scale(1.1);
+    opacity: 0.85;
 }
 .Georgia{
     font-family: "Georgia", sans-serif;
@@ -165,6 +166,9 @@ h1{
 .Exercise div{
     padding: 0 60px 30px 20px;
 }
+.Exercise .Date{
+    font-size: 11px;
+}
 .TwoDivsSmall .Exercise:hover{
     border: 1px solid #f8f8f8;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
@@ -194,8 +198,80 @@ h1{
     border: 1px solid #f8f8f8;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
 }
+.SecondRow{
+    display: flex;
+    width: 53.3%;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.SecondRow img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.SecondRow .Frame{
+    width: 49%;
+    background-color: white;
+    border-radius: 10px;
+    height: 334px;
+    border: 1px solid transparent;
+}
+.SecondRow .Frame div{
+    padding: 17px 0 30px 21px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.SecondRow .Date{
+    font-size: 11px;
+}
+.SecondRow .Frame:hover{
+    border: 1px solid #f8f8f8;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+}
+.ThirdRow{
+    width: 53.3%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.ThirdRow img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.ThirdRow .Frame{
+    border: 1px solid transparent;
+    width: 32%;
+    border-radius: 10px;
+    height: 273px;
+    background-color: white;
+}
+.ThirdRow .Frame .Date{
+    font-size: 11px;
+}
+.ThirdRow .Frame div{
+    padding: 17px 0 0 20px;
+}
+.ThirdRow .Frame h3{
+    font-size: 18px;
+}
+.ThirdRow .Frame:hover{
+    border: 1px solid #f8f8f8;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+}
 /* --------------------------- Section 3 --------------------------- */
-
+.Sec3Div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    height: 387px;
+}
+.Sec3Div .DivSignUp{
+    width: 26%;
+}
 /* --------------------------- Section 4 --------------------------- */
 
 /* --------------------------- Section 5 --------------------------- */
