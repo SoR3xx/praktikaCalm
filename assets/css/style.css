@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Georgia";
+    src: url(../fonts/Georgia.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "PalatinoLinotype";
+    src: url(../fonts/PalatinoLinotype.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+body{
+    width: 100%;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+/* --------------------------- Header --------------------------- */
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    font-family: "Georgia", sans-serif;
+    font-size: 14px;
+    padding: 0 10% 0 10%;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+}
+header img{
+    width: 78px;
+    height: 40px;
+}
+header nav a{
+    color: #353732;
+}
+header nav{
+    width: 191px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    transform: scale(1.1);
+}
+.Georgia{
+    font-family: "Georgia", sans-serif;
+    font-weight: 400;
+    color: #45525b;
+}
+.Palatino{
+    font-family: "PalatinoLinotype", sans-serif;
+    font-weight: 400;
+    color: #45525b;
+}
+.Poppins{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #353732;
+    font-size: 12px;
+}
+/* --------------------------- Section 1 --------------------------- */
+.Sec1Div{
+    width: 100%;
+    height: 438px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Sec1Div div{
+    margin-top: 67px;
+}
+h1{
+    font-size: 36px;
+    font-family: "PalatinoLinotype", sans-serif;
+    font-weight: 400;
+    color: #353732;
+    margin-top: 17px;
+}
+/* --------------------------- Section 2 --------------------------- */
+.Sec2Div{
+    width: 100%;
+    height: 1392px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.TravelDiv{
+    width: 66%;
+    height: 550px;
+    background-color: white;
+    padding-bottom: 31px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding-bottom: 31px;
+}
+.TravelDiv:hover{
+    border: 1px solid #f8f8f8;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+}
+.TravelDiv img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 284px;
+}
+.TravelDiv h2{
+    font-size: 25px;
+    margin-top: 12px;
+}
+.Texts{
+    padding: 17px 24px 0 21px;
+    height: 220px;
+}
+.Delectus{
+    font-size: 14px;
+    line-height: 22.4px;
+    margin-top: 12px;
+}
+.TravelDiv .Date{
+    font-size: 11px;
+    margin-top: 50px;
+}
+.FirstRow{
+    display: flex;
+    width: 53.3%;
+    height: 553px;
+}
+.TwoDivsSmall{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 17px;
+    justify-content: space-between;
+    height: 553px;
+}
+.TwoDivsSmall .Exercise{
+    height: 258px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: white;
+}
+.TwoDivsSmall div img{
+    width: 100%;
+    height: 53%;
+    margin-bottom: 17px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Exercise div{
+    padding: 0 60px 30px 20px;
+}
+.TwoDivsSmall .Exercise:hover{
+    border: 1px solid #f8f8f8;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+}
+.Sec2Div h3{
+    font-size: 16px;
+    color: #45525b;
+    font-weight: 400;
+    margin: 8px 0 10px 0;
+}
+.TechOne{
+    height: 258px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: white;
+}
+.TechOne div{
+    padding: 0 60px 30px 20px;
+}
+.TechOneText{
+    font-size: 18px;
+}
+.TechOne .Date{
+    font-size: 11px;
+}
+.TwoDivsSmall .TechOne:hover{
+    border: 1px solid #f8f8f8;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+}
+/* --------------------------- Section 3 --------------------------- */
+
+/* --------------------------- Section 4 --------------------------- */
+
+/* --------------------------- Section 5 --------------------------- */
+
+/* --------------------------- Section 6 --------------------------- */
+
+/* --------------------------- Section 7 --------------------------- */
+
+/* --------------------------- Section 8 --------------------------- */
+
+/* --------------------------- Footer --------------------------- */
